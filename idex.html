@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>A Simple Form</h1>
+        <h2>Form Fundamental</h2>
+        </header>
+        <form action="https://formspree.io/doniaskrzypek@gmail.com" method="post">
+        <fieldset>
+        <legend>Customer info</legend>
+            <label for="name">Name:</label>
+            <input type="text" name="name" autofocus placeholder="Enter Your Name" required> <br/>
+            <label for="Telephone">Telephone:</label>
+            <input type="tel" name="telephone" placeholder="Pattern 1-234-567-8910" pattern="\d[\-]\d{3}[\-]\d{3}[\-]\d{4}" required> <br/>
+            <label for="Email address">Email address</label>
+            <input type="email" name="email" placeholder="Enter Your email address" required>            
+        </fieldset>
+         <fieldset>
+        <legend>Books</legend>
+            <select name="book" id="book">
+               <option value="pokolenia">Pokolenia</option>
+               <option value="takenoko">Takenoko</option>
+               <option value="magnaci">Magnaci</option> 
+               <option value="carcassonne">Carcassonne</option>
+               <option value="ziółka">Niezłe Ziółka</option>
+             </select>
+            <label for="quantity">Quantity (Maximim 5)</label>
+            <input type="number" name="quantity" min="0" max="5">
+        </fieldset>
+        <input type="submit" value="Submit">
+        </form>
+</body>
+</html>

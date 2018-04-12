@@ -1,0 +1,23 @@
+h1{
+    color: darkblue;
+       margin: 0px;
+    
+}
+
+h2{
+    color: skyblue;
+    font-style: italic;
+    margin: 0px;
+}
+
+}
+
+input[type='submit']{
+    width: 100px;
+    margin-top: 0px;
+    margin-left: 3px;
+   
+}
+input{
+    margin: 10px;
+}
